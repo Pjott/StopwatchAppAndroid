@@ -22,7 +22,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="8dp"
-        android:text="@string/start"/>
+        android:text="@string/start"
+        android:onClick="onClickStart"/>
 
     <Button
         android:id="@+id/stop_button"
@@ -30,7 +31,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="8dp"
-        android:text="@string/stop"/>
+        android:text="@string/stop"
+        android:onClick="onClickStop"/>
 
     <Button
         android:id="@+id/reset_button"
@@ -38,5 +40,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="8dp"
-        android:text="@string/reset"/>
+        android:text="@string/reset"
+        android:onClick="onClickReset"/>
 </LinearLayout>
